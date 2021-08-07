@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "29b908b2-a285-455b-b910-4a0c35b229a6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 98,
+  "height": 51,
+  "platformSettings": {},
+  "subMetas": {
+    "bankBtnChooseBorder": {
+      "ver": "1.0.4",
+      "uuid": "0dd8c3b1-2fe8-45a6-920d-61a5ce8b032e",
+      "rawTextureUuid": "29b908b2-a285-455b-b910-4a0c35b229a6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 98,
+      "height": 51,
+      "rawWidth": 98,
+      "rawHeight": 51,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

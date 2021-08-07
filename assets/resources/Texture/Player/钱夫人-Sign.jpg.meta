@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "a89a80dd-ed73-4860-9854-0be01500789b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 124,
+  "height": 124,
+  "platformSettings": {},
+  "subMetas": {
+    "钱夫人-Sign": {
+      "ver": "1.0.4",
+      "uuid": "58c3abd2-e785-4d49-8f70-86aa57113993",
+      "rawTextureUuid": "a89a80dd-ed73-4860-9854-0be01500789b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 124,
+      "height": 124,
+      "rawWidth": 124,
+      "rawHeight": 124,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

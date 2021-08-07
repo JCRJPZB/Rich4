@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "50b30349-b053-48bb-8e22-5807944daa74",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 70,
+  "height": 70,
+  "platformSettings": {},
+  "subMetas": {
+    "SunHsiaoMei-Portrait": {
+      "ver": "1.0.4",
+      "uuid": "ac04b3a4-348f-4a2c-be19-c911dceb30ce",
+      "rawTextureUuid": "50b30349-b053-48bb-8e22-5807944daa74",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 70,
+      "rawWidth": 70,
+      "rawHeight": 70,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+    "MaxLandLv": 5,
+    "InitialCash": 1000,
+    "InitialDeposit": 2000,
+    "News": {
+        "bgImgUrl": "/Texture/UI/News/newsBg",
+        "exitBtnImgUrl": "/Texture/UI/News/exitBtn",
+        "eventAtlas": "/Texture/UI/News/News",
+        "delay": 2,
+        "content": {
+            "type": {
+                "financial": "财政新闻",
+                "government": "政府新闻"
+            },
+            "financial": {
+                "stockCrash": "股市低迷不振重挫崩盘",
+                "bullMarket": "股市气势如虹全面上涨",
+                "jailed": "违法超贷，经营者[角色名]坐牢5天"
+            },
+            "government": {
+                "payTaxes": "所有人缴交所得税 5%"
+            }
+        }
+    },
+    "Magic": {
+        "AtlasUrl": "/Texture/UI/Magic/magic",
+        "bgImgUrl": "magicBg",
+        "talkContentBg": "talkContentBg",
+        "randomType": ["Male", "Female", "Ticket", "Land", "Cash", "Total", "Deposit", "Stock"],
+        "typeStr": {
+            "Male": "所有男生",
+            "Female": "所有女生",
+            "Ticket": "点券最多的人",
+            "Land": "土地最多的人",
+            "Cash": "现金最多的人",
+            "Total": "财产最多的人",
+            "Deposit": "存款最多的人",
+            "Stock": "股值最高的人"
+        },
+        "talkContent": {
+            "count": 5,
+            "replaceIndex": 3,
+            "delay": [0.5, 2, 3.5, 5, 8],
+            "0": "进来魔法屋，就得完全按照我的指示",
+            "1": "我选出符合条件的人",
+            "2": "你来决定他们的命运",
+            "3": "[PlayerType]",
+            "4": "嘿，轮到你了",
+            "end": "天灵灵地灵灵~"
+        }
+    },
+    "AI": {
+        "Card": {
+            "positive": ["rise", "red"],
+            "neutral": ["stockRise", "stockFall"],
+            "negative": ["close", "monster", "black"]
+        },
+        "Tool": {
+            "positive": [],
+            "neutral": [],
+            "negative": []
+        },
+        "Stock": [
+            "FujiBank", "MitsuiLife", "Mitsukoshi", "Nissan",
+            "SEGA", "Toyota", "Panasonic", "Hitachi",
+            "SONY", "Mitsubishi", "Nintendo", "Tokuma"
+        ],
+        "阿土伯": {
+            "cashRate": 0.5,
+            "depositRate": 0.2,
+            "stockRate": 0.3,
+            "cardProb": 0.6,
+            "badGuy":0.3,
+            "prefStock": "FujiBank"
+        },
+        "钱夫人": {
+            "cashRate": 0.5,
+            "depositRate": 0.2,
+            "stockRate": 0.3,
+            "cardProb": 0.6,
+            "badGuy":0.3,
+            "prefStock": "MitsuiLife"
+        },
+        "孙小美": {
+            "cashRate": 0.5,
+            "depositRate": 0.2,
+            "stockRate": 0.3,
+            "cardProb": 0.6,
+            "badGuy":0.3,
+            "prefStock": "Nissan"
+        },
+        "沙隆巴斯": {
+            "cashRate": 0.5,
+            "depositRate": 0.2,
+            "stockRate": 0.3,
+            "cardProb": 0.6,
+            "badGuy":0.3,
+            "prefStock": "Mitsubishi"
+        }
+    },
+    "Card": {
+        "background": "/Texture/UI/Card/pane",
+        "exitBtnImgUrl": "/Texture/UI/Card/exitBtn",
+        "pgUpBtnImgUrl": "/Texture/UI/Card/pageUp",
+        "pgDownBtnImgUrl": "/Texture/UI/Card/pageDown",
+        "startPos": [-156, 55],
+        "rowMax": 5,
+        "colMax": 3,
+        "rowPadding": 78,
+        "colPadding": 55,
+        "cards": {
+            "rise": {
+                "cardId": "rise",
+                "cardName": "涨价卡",
+                "price": 35,
+                "duration": 5
+            },
+            "close": {
+                "cardId": "close",
+                "cardName": "查封卡",
+                "price": 35,
+                "duration": 5
+            },
+            "monster": {
+                "cardId": "monster",
+                "cardName": "怪兽卡",
+                "price": 60,
+                "duration": 0
+            },
+            "red": {
+                "cardId": "red",
+                "cardName": "红卡",
+                "price": 50,
+                "duration": 3
+            },
+            "black": {
+                "cardId": "black",
+                "cardName": "黑卡",
+                "price": 50,
+                "duration": 3
+            },
+            "stockRise": {
+                "cardId": "stockRise",
+                "cardName": "大红卡",
+                "price": 50,
+                "duration": 3
+            },
+            "stockFall": {
+                "cardId": "stockFall",
+                "cardName": "大黑卡",
+                "price": 50,
+                "duration": 3
+            }
+        }
+    },
+    "Tool": {
+        "background": "/Texture/UI/Card/pane",
+        "exitBtnImgUrl": "/Texture/UI/Card/exitBtn",
+        "pgUpBtnImgUrl": "/Texture/UI/Card/pageUp",
+        "pgDownBtnImgUrl": "/Texture/UI/Card/pageDown",
+        "startPos": [-156, 55],
+        "rowMax": 5,
+        "colMax": 3,
+        "rowPadding": 78,
+        "colPadding": 55,
+        "tools": {
+            "car": {
+                "toolId": "car",
+                "toolName": "汽车",
+                "price": 35
+            }
+        }
+    },
+    "Alert": {
+        "NoticeAlert": {
+            "bgImgUrl": "/Texture/UI/Alert/alertBackground",
+            "content": {
+                "working": "该功能正在开发中……",
+                "buyLandSuccess": "成功买下该地!",
+                "buyLandFailed": "现金不足！",
+                "upgradeLand": "加盖成功！",
+                "maxLv": "已满级！",
+                "charge": "被收取费用$",
+                "cardOffset": "卡片效果已抵消！",
+                "choosePos": "请选择地图上任意一块土地！",
+                "selectNull": "未选择任何土地！",
+                "useSuccess": "使用成功！",
+                "noBuilding": "该土地上无建筑！",
+                "freePass": "免费通过！",
+                "Jailed": "[角色名]坐牢中，剩余",
+                "playerLose": "玩家角色已被淘汰："
+            },
+            "confirmStr": "确认"
+        },
+    
+        "EventAlert": {
+            "bgImgUrl": "/Texture/UI/Alert/alertBackground",
+            "delay": 1,
+            "replaceSign": "[replace]",
+            "content": {
+                "randomCashPosi": "干好事被奖励$",
+                "randomCashNegt": "违反交规罚款$",
+                "randomCardPosi": "获得卡片  ",
+                "randomCardNegt": "遗失卡片  ",
+                "randomToolPosi": "获得道具  ",
+                "randomToolNegt": "遗失道具  ",
+                "Jailed": "[replace] 坐牢三天",
+                "SellCard": "[replace] 变卖所有卡片",
+                "TurnBack": "[replace] 已转向",
+                "Destroy": "[replace] 就地拆除房屋",
+                "Upgrade": "[replace] 就地加盖房屋",
+                "GetCard": "[replace] 获得一张卡片\n",
+                "SaveAll": "[replace] 存入所有现金",
+                "SellTool": "[replace] 变卖所有道具",
+                "AIUseCard": "AI[replace] 使用卡片",
+                "AITradeStock": "AI[replace] ",
+                "AITest": ""
+            }
+        },
+    
+        "ConfirmAlert": {
+            "bgImgUrl": "/Texture/UI/Alert/alertBackground",
+            "content": {
+                "buyLand": "是否买下此地？",
+                "upgrade": "是否加盖？",
+                "facility": "是否建造设施？"
+            },
+            "confirmStr": "是",
+            "cancelStr": "否"
+        }, 
+        
+        "FacilityAlert": {
+            "bgImgUrl": "/Texture/UI/Alert/alertBackground",
+            "chooseImgUrl": "/Texture/UI/Alert/choose",
+            "facilities": ["research", "mall", "hotel", "gas", "park"],
+            "lblStr": {
+                "research": "研究所",
+                "mall": "购物中心",
+                "hotel": "旅馆",
+                "gas": "加油站",
+                "park": "公园"
+            },
+            "lblPos": {
+                "research": [-60, 40],
+                "mall": [60, 40],
+                "hotel": [-60, 10],
+                "gas": [60, 10],
+                "park": [-60, -20]
+            },
+            "confirmStr": "确认",
+            "cancelStr": "取消"
+        }
+    },
+    "Effect": {
+        "rise": "/Texture/Map/Point/rise",
+        "close": "/Texture/Map/Point/close"
+    },
+    "Player": {
+        "阿土伯": {
+            "name": "阿土伯",
+            "sex": "Male",
+            "imgUrl": "/Texture/Player/UncleTuu",
+            "portrait": "/Texture/Player/UncleTuu-Portrait",
+            "color": {
+                "r": 160,
+                "g": 131,
+                "b": 55,
+                "a": 255
+            }
+        },
+        "沙隆巴斯": {
+            "name": "沙隆巴斯",
+            "sex": "Male",
+            "imgUrl": "/Texture/Player/Salonbus",
+            "portrait": "/Texture/Player/Salonbus-Portrait",
+            "color": {
+                "r": 229,
+                "g": 225,
+                "b": 216,
+                "a": 255
+            }
+        },
+        "钱夫人": {
+            "name": "钱夫人",
+            "sex": "Female",
+            "imgUrl": "/Texture/Player/MadameChyan",
+            "portrait": "/Texture/Player/MadameChyan-Portrait",
+            "color": {
+                "r": 111,
+                "g": 51,
+                "b": 113,
+                "a": 255
+            }
+        },
+        "孙小美": {
+            "name": "孙小美",
+            "sex": "Female",
+            "imgUrl": "/Texture/Player/SunHsiaoMei",
+            "portrait": "/Texture/Player/SunHsiaoMei-Portrait",
+            "color": {
+                "r": 204,
+                "g": 91,
+                "b": 77,
+                "a": 255
+            }
+        }
+    }
+}

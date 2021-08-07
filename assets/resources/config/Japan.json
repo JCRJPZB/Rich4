@@ -1,0 +1,714 @@
+{
+    "mapName": "Japan",
+    "background": "/Texture/Map/Background/Japan",
+    "nodeImgs": "/Texture/Map/Point/node",
+    "maxStartPos": 95,
+    "pointCount": 96,
+    "pathCount": 3,
+    "lineCount": 3,
+    "roadCount": 15,
+    "buildingCount": 2,
+    "maxBuildLv": 5,
+    "buildingPrice": 500,
+    "facilityPrice": 1000,
+    "tollFee": 200,
+    "road": {
+        "0": [1337.5, 700, 475, 0],
+        "1": [1727.5, 700, 305, 0],
+        "2": [2110, 930, 650, 45],
+        "3": [2340, 1290, 260, 90],
+        "4": [2340, 1615, 390, 90],
+        "5": [2340, 1940, 260, 90],
+        "6": [2145, 2070, 390, 0],
+        "7": [1950, 1875, 390, 90],
+        "8": [1812, 1542, 390, 45],
+        "9": [1513, 1243, 455, 45],
+        "10": [1214, 944, 390, 45],
+        "11": [881, 806, 390, 0],
+        "12": [523.5, 806, 325, 0],
+        "13": [361, 676, 260, 90],
+        "14": [985, 585, 325, 45]
+    },
+    "path": {
+        "0": [1],
+        "1": [0],
+        "2": [1]
+    },
+    "line": {
+        "0": [0, 1, 2, 3, 4, 5, 6 ,7 ,8 ,9 ,10, 11, 12, 13, 14, 15, 16,
+            17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+        "1": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+            47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62,
+            63, 64, 65, 66, 67, 68, 69, 70, 71, 72 ,73 ,74 ,75 ,76, 77, 78,
+            79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+        "2": [95, 94, 93, 92, 91, 90]
+    },
+    "reversePath": {
+        "0": [1],
+        "1": [0],
+        "2": [0]
+    },
+    "reverseLine": {
+        "0": [31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17,
+            16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
+        "1": [89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78,
+            77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 65, 64, 63, 62,
+            61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47,
+            46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32],
+        "2": [95, 94, 93, 92, 91, 90]
+    },
+    "point": {
+        "0": {
+            "pointName": "node",
+            "imgUrl": "random",
+            "position": [1100, 700]
+        },
+        "1": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1197.5, 700],
+            "angle": 0
+        },
+        "2": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1262.5, 700],
+            "angle": 0
+        },
+        "3": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1327.5, 700],
+            "angle": 0
+        },
+        "4": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1392.5, 700],
+            "angle": 0
+        },
+        "5": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1457.5, 700],
+            "angle": 0
+        },
+        "6": {
+            "pointName": "node",
+            "imgUrl": "bank",
+            "position": [1575, 700]
+        },
+        "7": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1672.5, 700],
+            "angle": 0
+        },
+        "8": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1737.5, 700],
+            "angle": 0
+        },
+        "9": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1802.5, 700],
+            "angle": 0
+        },
+        "10": {
+            "pointName": "node",
+            "imgUrl": "onSale",
+            "position": [1880, 700]
+        },
+        "11": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1949, 769],
+            "angle": 45
+        },
+        "12": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1995, 815],
+            "angle": 45
+        },
+        "13": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2041, 861],
+            "angle": 45
+        },
+        "14": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [2110, 930],
+            "angle": 45
+        },
+        "15": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2179, 999],
+            "angle": 45
+        },
+        "16": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2225, 1045],
+            "angle": 45
+        },
+        "17": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2271, 1091],
+            "angle": 45
+        },
+        "18": {
+            "pointName": "node",
+            "imgUrl": "card",
+            "position": [2340, 1160]
+        },
+        "19": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1225],
+            "angle": 90
+        },
+        "20": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1290],
+            "angle": 90
+        },
+        "21": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1355],
+            "angle": 90
+        },
+        "22": {
+            "pointName": "node",
+            "imgUrl": "news",
+            "position": [2340, 1420]
+        },
+        "23": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [2340, 1517.5],
+            "angle": 90
+        },
+        "24": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1615],
+            "angle": 90
+        },
+        "25": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1680],
+            "angle": 90
+        },
+        "26": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1745],
+            "angle": 90
+        },
+        "27": {
+            "pointName": "node",
+            "imgUrl": "number",
+            "position": [2340, 1810]
+        },
+        "28": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1875],
+            "angle": 90
+        },
+        "29": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 1940],
+            "angle": 90
+        },
+        "30": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [2340, 2005],
+            "angle": 90
+        },
+        "31": {
+            "pointName": "node",
+            "imgUrl": "prison",
+            "position": [2340, 2070]
+        },
+        "32": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [2210, 2070],
+            "angle": 0
+        },
+        "33": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [2080, 2070],
+            "angle": 0
+        },
+        "34": {
+            "pointName": "node",
+            "imgUrl": "magic",
+            "position": [1950, 2070]
+        },
+        "35": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1950, 2005],
+            "angle": 90
+        },
+        "36": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1950, 1940],
+            "angle": 90
+        },
+        "37": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1950, 1875],
+            "angle": 90
+        },
+        "38": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [1950, 1777.5],
+            "angle": 90
+        },
+        "39": {
+            "pointName": "node",
+            "imgUrl": "random",
+            "position": [1950, 1680]
+        },
+        "40": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1881, 1611],
+            "angle": 45
+        },
+        "41": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1835, 1565],
+            "angle": 45
+        },
+        "42": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1789, 1519],
+            "angle": 45
+        },
+        "43": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1743, 1473],
+            "angle": 45
+        },
+        "44": {
+            "pointName": "node",
+            "imgUrl": "news",
+            "position": [1674, 1404]
+        },
+        "45": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [1582, 1312],
+            "angle": 45
+        },
+        "46": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1513, 1243],
+            "angle": 45
+        },
+        "47": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1467, 1197],
+            "angle": 45
+        },
+        "48": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1421, 1151],
+            "angle": 45
+        },
+        "49": {
+            "pointName": "node",
+            "imgUrl": "hospital",
+            "position": [1352, 1082]
+        },
+        "50": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1283, 1013],
+            "angle": 45
+        },
+        "51": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1237, 967],
+            "angle": 45
+        },
+        "52": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1191, 921],
+            "angle": 45
+        },
+        "53": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1145, 875],
+            "angle": 45
+        },
+        "54": {
+            "pointName": "node",
+            "imgUrl": "onSale",
+            "position": [1076, 806]
+        },
+        "55": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [946, 806],
+            "angle": 0
+        },
+        "56": {
+            "pointName": "facility",
+            "imgUrl": "/Texture/Map/Point/border2x2",
+            "position": [816, 806],
+            "angle": 0
+        },
+        "57": {
+            "pointName": "node",
+            "imgUrl": "random",
+            "position": [686, 806]
+        },
+        "58": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [588.5, 806],
+            "angle": 0
+        },
+        "59": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [523.5, 806],
+            "angle": 0
+        },
+        "60": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [458.5, 806],
+            "angle": 0
+        },
+        "61": {
+            "pointName": "node",
+            "imgUrl": "park",
+            "position": [361, 806]
+        },
+        "62": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [361, 708.5],
+            "angle": 90
+        },
+        "63": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [361, 643.5],
+            "angle": 90
+        },
+        "64": {
+            "pointName": "node",
+            "imgUrl": "magic",
+            "position": [361, 546]
+        },
+        "65": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [320, 450]
+        },
+        "66": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [235, 410]
+        },
+        "67": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [200, 335]
+        },
+        "68": {
+            "pointName": "point",
+            "imgUrl": "fifty",
+            "position": [200, 260]
+        },
+        "69": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [275, 215]
+        },
+        "70": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [355, 215]
+        },
+        "71": {
+            "pointName": "node",
+            "imgUrl": "number",
+            "position": [450, 215]
+        },
+        "72": {
+            "pointName": "point",
+            "imgUrl": "thirty",
+            "position": [490, 295]
+        },
+        "73": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [535, 355]
+        },
+        "74": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [600, 340]
+        },
+        "75": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [685, 315]
+        },
+        "76": {
+            "pointName": "point",
+            "imgUrl": "fifty",
+            "position": [675, 230]
+        },
+        "77": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [700, 150]
+        },
+        "78": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [765, 105]
+        },
+        "79": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [850, 105]
+        },
+        "80": {
+            "pointName": "node",
+            "imgUrl": "random",
+            "position": [950, 105]
+        },
+        "81": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [1015, 190]
+        },
+        "82": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [1075, 225]
+        },
+        "83": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [1100, 315]
+        },
+        "84": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [1050, 390]
+        },
+        "85": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [980, 460]
+        },
+        "86": {
+            "pointName": "node",
+            "imgUrl": "random",
+            "position": [870, 470]
+        },
+        "87": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [939, 539],
+            "angle": 45
+        },
+        "88": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [985, 585],
+            "angle": 45
+        },
+        "89": {
+            "pointName": "building",
+            "imgUrl": "/Texture/Map/Point/border",
+            "position": [1031, 631],
+            "angle": 45
+        },
+        "90": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [2340, 2155]
+        },
+        "91": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [2340, 2205]
+        },
+        "92": {
+            "pointName": "point",
+            "imgUrl": "ten",
+            "position": [2340, 2255]
+        },
+        "93": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [2340, 2305]
+        },
+        "94": {
+            "pointName": "point",
+            "imgUrl": "thirty",
+            "position": [2340, 2355]
+        },
+        "95": {
+            "pointName": "point",
+            "imgUrl": "zero",
+            "position": [2340, 2405]
+        }
+    },
+    "building": {
+        "0": {
+            "bulidingName": "Prison",
+            "imgUrl": "/Texture/Map/Building/prison",
+            "position": [2320, 2500],
+            "pos": 95
+        },
+        "1": {
+            "buildingName": "Hospital",
+            "imgUrl": "null",
+            "position": [1352, 1082],
+            "pos": 49
+        }
+    },
+    "facilityImgUrls": {
+        "research": "research",
+        "gas": "gas",
+        "mall": "mall",
+        "hotel": "hotel",
+        "park": "park"
+    },
+    "Stock": {
+        "minPrice": 10,
+        "maxNumPerPage": 12,
+        "offsetY": 142,
+        "intervalY": 32,
+        "background": "/Texture/UI/Stock/stockBackground",
+        "exitBtnImgUrl": "/Texture/UI/Stock/stockExitBtn",
+        "selectBorder": "/Texture/UI/Stock/selectBorder",
+        "infoPaneBg": "/Texture/UI/Stock/stockInfoPaneBg",
+        "maxFloat": 0.1,
+        "min": 10,
+        "stock": {
+            "FujiBank": {
+                "name": "富士银行",
+                "id": "FujiBank",
+                "max": 310,
+                "inital": 80,
+                "upside": 0.7
+            },
+            "MitsuiLife": {
+                "name": "三井生命",
+                "id": "MitsuiLife",
+                "max": 150,
+                "inital": 100,
+                "upside": 0.5
+            },
+            "Mitsukoshi": {
+                "name": "三越百货",
+                "id": "Mitsukoshi",
+                "max": 200,
+                "inital": 50,
+                "upside": 0.6
+            },
+            "Nissan": {
+                "name": "日产建设",
+                "id": "Nissan",
+                "max": 250,
+                "inital": 70,
+                "upside": 0.65
+            },
+            "SEGA": {
+                "name": "世嘉",
+                "id": "SEGA",
+                "max": 280,
+                "inital": 30,
+                "upside": 0.75
+            },
+            "Toyota": {
+                "name": "丰田汽车",
+                "id": "Toyota",
+                "max": 260,
+                "inital": 80,
+                "upside": 0.6
+            },
+            "Panasonic": {
+                "name": "松下电机",
+                "id": "Panasonic",
+                "max": 200,
+                "inital": 70,
+                "upside": 0.55
+            },
+            "Hitachi": {
+                "name": "日立机电",
+                "id": "Hitachi",
+                "max": 210,
+                "inital": 65,
+                "upside": 0.6
+            },
+            "SONY": {
+                "name": "索尼",
+                "id": "SONY",
+                "max": 290,
+                "inital": 30,
+                "upside": 0.7
+            },
+            "Mitsubishi": {
+                "name": "三菱工业",
+                "id": "Mitsubishi",
+                "max": 250,
+                "inital": 60,
+                "upside": 0.6
+            },
+            "Nintendo": {
+                "name": "任天堂",
+                "id": "Nintendo",
+                "max": 350,
+                "inital": 50,
+                "upside": 0.75
+            },
+            "Tokuma": {
+                "name": "德间书店",
+                "id": "Tokuma",
+                "max": 220,
+                "inital": 55,
+                "upside": 0.55
+            }
+        }
+    }
+}

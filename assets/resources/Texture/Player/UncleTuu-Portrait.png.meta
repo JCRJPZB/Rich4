@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "96666887-19d6-477a-b330-59cf3ff657a9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 70,
+  "height": 70,
+  "platformSettings": {},
+  "subMetas": {
+    "UncleTuu-Portrait": {
+      "ver": "1.0.4",
+      "uuid": "dc4e9f58-7a93-49b8-ad26-2b74cdac4a99",
+      "rawTextureUuid": "96666887-19d6-477a-b330-59cf3ff657a9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 70,
+      "rawWidth": 70,
+      "rawHeight": 70,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

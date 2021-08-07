@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "d152dd74-ec57-446d-a8d8-ce1fb0b833bd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 70,
+  "height": 70,
+  "platformSettings": {},
+  "subMetas": {
+    "Salonbus-Portrait": {
+      "ver": "1.0.4",
+      "uuid": "fe2d271d-e210-487f-9d95-2047a70c0b6b",
+      "rawTextureUuid": "d152dd74-ec57-446d-a8d8-ce1fb0b833bd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 70,
+      "height": 70,
+      "rawWidth": 70,
+      "rawHeight": 70,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

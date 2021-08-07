@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "f1bc991b-3f50-4d21-b1c3-30da502a397c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 124,
+  "height": 124,
+  "platformSettings": {},
+  "subMetas": {
+    "沙隆巴斯-Sign": {
+      "ver": "1.0.4",
+      "uuid": "f68fbf22-c354-49c9-9557-359bcb2145c0",
+      "rawTextureUuid": "f1bc991b-3f50-4d21-b1c3-30da502a397c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 124,
+      "height": 124,
+      "rawWidth": 124,
+      "rawHeight": 124,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

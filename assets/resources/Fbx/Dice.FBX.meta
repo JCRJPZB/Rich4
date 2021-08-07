@@ -1,0 +1,227 @@
+{
+  "ver": "1.1.1",
+  "uuid": "0d2900e1-b89a-4552-8d33-9aca564cfdbc",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.0",
+      "uuid": "01431deb-2b31-4942-9f61-8802d84db313",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "Dice.mesh": {
+      "ver": "1.0.1",
+      "uuid": "ec42800e-c96f-4692-959d-bbcffe32bc68",
+      "verts": 24,
+      "tris": 12,
+      "submeshes": 6,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.149999991059303,
+        "y": -0.149999991059303,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0.149999991059303,
+        "y": 0.149999991059303,
+        "z": 0.299999982118607
+      },
+      "name": "Dice.mesh",
+      "subMetas": {}
+    },
+    "Dice.prefab": {
+      "ver": "1.2.9",
+      "uuid": "8b618846-3ef5-4532-909c-67cf5ce96457",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "Dice.prefab",
+      "subMetas": {}
+    },
+    "Material #55.mtl": {
+      "ver": "1.0.3",
+      "uuid": "330a729a-c895-4222-8ef2-95181a56c27b",
+      "dataAsSubAsset": null,
+      "name": "Material #55.mtl",
+      "subMetas": {}
+    },
+    "Material #56.mtl": {
+      "ver": "1.0.3",
+      "uuid": "6285e128-978b-4b6b-b535-32b2e4f513d7",
+      "dataAsSubAsset": null,
+      "name": "Material #56.mtl",
+      "subMetas": {}
+    },
+    "Material #57.mtl": {
+      "ver": "1.0.3",
+      "uuid": "acdbcdf4-0eed-4579-9e57-34a78737f930",
+      "dataAsSubAsset": null,
+      "name": "Material #57.mtl",
+      "subMetas": {}
+    },
+    "Material #58.mtl": {
+      "ver": "1.0.3",
+      "uuid": "9e3a595f-5000-4907-969b-283e8234145d",
+      "dataAsSubAsset": null,
+      "name": "Material #58.mtl",
+      "subMetas": {}
+    },
+    "Material #59.mtl": {
+      "ver": "1.0.3",
+      "uuid": "b640c7da-e855-4c25-9874-a483d5ff8999",
+      "dataAsSubAsset": null,
+      "name": "Material #59.mtl",
+      "subMetas": {}
+    },
+    "Material #60.mtl": {
+      "ver": "1.0.3",
+      "uuid": "f4e14944-3c76-483f-9f21-b1af63eb2721",
+      "dataAsSubAsset": null,
+      "name": "Material #60.mtl",
+      "subMetas": {}
+    }
+  }
+}
